@@ -1,0 +1,3 @@
+(ns cleuler.problem002)
+
+(defn next-fib [x] (+ (last x) (last (but-last x))))
